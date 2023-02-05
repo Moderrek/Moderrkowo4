@@ -1,0 +1,4 @@
+rootProject.name = 'Moderrkowo4'
+include 'API'
+include 'Economy'
+include 'DiscordBot'

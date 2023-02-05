@@ -1,0 +1,5 @@
+name: API
+version: '${version}'
+main: pl.moderrkowo.survival.api.API
+api-version: 1.19
+authors: [ MODERR ]

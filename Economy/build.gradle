@@ -1,0 +1,11 @@
+plugins {
+    id 'moderrkowo.plugin-survival-conventions'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group = 'pl.moderrkowo.survival'
+version = '4.0'
+
+dependencies {
+    compileOnly project(":API")
+}

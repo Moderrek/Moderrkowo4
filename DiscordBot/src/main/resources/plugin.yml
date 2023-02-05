@@ -1,0 +1,11 @@
+name: Discord
+version: '${version}'
+main: pl.moderrkowo.survival.discord.DiscordPlugin
+api-version: 1.19
+authors: [ MODERR ]
+depend: [ API ]
+commands:
+  polacz:
+    description: Laczenie konta discord z kontem minecraft
+  odlacz:
+    description: Odlaczanie konta minecraft z kontem discord

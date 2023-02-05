@@ -1,0 +1,13 @@
+plugins {
+    id 'moderrkowo.plugin-survival-conventions'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group = 'pl.moderrkowo.survival'
+version = '4.0'
+
+dependencies {
+    implementation ("net.dv8tion:JDA:5.0.0-beta.3") {
+        exclude module: "opus-java"
+    }
+}

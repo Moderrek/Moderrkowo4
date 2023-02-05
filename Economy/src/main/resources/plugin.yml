@@ -1,0 +1,6 @@
+name: Economy
+version: '${version}'
+main: pl.moderrkowo.survival.economy.EconomyPlugin
+api-version: 1.19
+authors: [ MODERR ]
+depend: [ API ]
